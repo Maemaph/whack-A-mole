@@ -1,0 +1,63 @@
+.square{
+    width: 110px;
+    height: 110px;
+    border: 2px solid rgb(61, 47, 0);
+    background-color: tan;
+    border-radius: 15px;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    width: 450px;
+    height: 450px;
+    margin-top: -35px;  
+    margin-left: 7%;  
+}
+
+.mole{
+    background-image: url('dribble.png');
+    background-size: cover;
+}
+.text{
+        font-weight: 900;
+    text-align: center;
+}
+h2{
+    margin-bottom: -25px;
+}
+body{
+    background: linear-gradient( rgb(70, 70, 70), rgb(50, 50, 50), rgb(30, 30, 30));
+    color: rgb(44, 29, 0);
+    font-family: Segoe UI;
+    
+}
+
+button{
+    padding: 10px 25px;
+    text-align: center;
+    position: relative;    
+    bottom: 30px;
+    margin-left: 40%;
+    background-color: tan;
+    border: none;
+    border-radius: 15px;
+    transition: .5s;
+}
+button:hover{
+    background-color: rgb(241, 207, 163);
+    border-radius: 10px;
+    transition: .5s;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.container{
+    background: linear-gradient(rgb(0, 140, 260), rgb(0, 90, 190), rgb(0, 50, 180));
+    width: 30%;
+    position: relative;
+    margin-left: 34%;
+    border: 10px double whitesmoke;
+    border-radius: 20px;
+}
+
